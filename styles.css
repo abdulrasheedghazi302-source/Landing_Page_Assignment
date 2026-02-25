@@ -93,3 +93,10 @@ nav ul li a:hover{
     color: black;
 }
 
+.logo_s{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
