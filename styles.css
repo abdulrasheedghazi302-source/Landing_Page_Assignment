@@ -98,27 +98,5 @@ nav ul li a:hover{
     justify-content: space-around;
     align-items: center;
     padding: 20px;
-    cursor: pointer;
-}
-
-.services_message{
-    display: flex;
-    justify-content: flex-start;
-    padding: 80px;
-    
-}
-
-.services_heading{
-    font-size: 40px;
-    font-weight: 500;
-    padding: 7px;
-    background-color: rgb(122, 200, 44);
-    border-radius: 7px;
-}
-
-.services_para{
-    font-size: 18px;
-    padding: 20px;
-    line-height: 100%;
 }
 
