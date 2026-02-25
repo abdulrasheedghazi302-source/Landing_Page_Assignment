@@ -17,6 +17,19 @@
     .logo_s{
         flex-wrap: wrap;
     }
+
+    .services_message{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .services_heading{
+        text-align: center;
+    }
+    .services_para{
+        text-align: center;
+    }
 }
 
 @media only screen and (max-width: 650px) {
