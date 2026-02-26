@@ -121,7 +121,7 @@ nav ul li a:hover{
 .services {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     gap: 30px;
     padding: 60px;
 }
@@ -137,7 +137,14 @@ nav ul li a:hover{
     position: relative;
     height: 250px;
     box-shadow: 0px 4px  rgba(0, 0, 0, 1);
+    transition: all 0.3s ease;
 }
+
+.card:hover {
+    transform: scale(1.1) translateY(-10px) ;
+    
+}
+
 
 .card .h2_green {
     position: absolute;
@@ -211,5 +218,20 @@ nav ul li a:hover{
     left: 30px;
 }
 
+.cta_block{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    border-radius: 40px;
+    /* border: 2px solid black; */
+    margin: auto;
+    background-color: rgb(249, 245, 252);
+    
+}
 
+.cta_block .cta_heading{
+    font-size: 35px;
+    font-weight: 500;
+}
 
