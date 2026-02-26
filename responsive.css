@@ -30,6 +30,27 @@
     .services_para{
         text-align: center;
     }
+
+    .services {
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card h2 , .card p {
+        text-align: center;
+    }
+
+    .card div img  {
+        /* display: none; */
+    }
 }
 
 @media only screen and (max-width: 650px) {
@@ -48,5 +69,25 @@
     .logo_s{
         flex-direction: column;
     }
+
+    .services {
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card {
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card div img  {
+        display: none;
+    }
+
 }
 
