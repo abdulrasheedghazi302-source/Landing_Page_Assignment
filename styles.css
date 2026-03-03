@@ -47,7 +47,7 @@ nav ul li a:hover {
 }
 
 .nav_btn:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
   background-color: #9cff00;
   color: white;
 }
@@ -91,7 +91,7 @@ nav ul li a:hover {
 .content_btn:hover {
   background-color: #9cff00;
   color: white;
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 /* Company Logos */
@@ -144,7 +144,6 @@ nav ul li a:hover {
   width: 48%;
   padding: 40px;
   border-radius: 35px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border: 2px solid black;
   transition: 1.2s;
   position: relative;
@@ -243,7 +242,7 @@ nav ul li a:hover {
 }
 
 .cta_block:hover {
-  transform: scale(0.95);
+  transform: scale(1.05);
 }
 
 .cta_block .cta_heading {
@@ -290,7 +289,7 @@ nav ul li a:hover {
 }
 
 .case_studies_block:hover {
-  transform: scale(0.95);
+  transform: scale(1.05);
 }
 
 .case_studies_para {
